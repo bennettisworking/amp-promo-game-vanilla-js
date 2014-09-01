@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+#content{
+    width:833px;
+    padding:110px 50px 0 50px;
+    height:530px;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url(../images/contest_bg.jpg);
+    color:#ffffff;
+    position:relative;
+}
+
+#contest-lower-left{
+    position:absolute;
+    bottom:20px;
+    right:30px;
+    width:400px;
+    height:100px;
+}
+
+.ampphoto{
+    width:368px;
+    height:359px;
+    position:absolute;
+    top:142px;
+    left:517px;
+    background-image:url(../images/ht1r_big.png);
+    cursor:pointer;
+}
+.ampphoto:hover{
+    background-image:url(../images/ht1r_big_blue.png);
+}
